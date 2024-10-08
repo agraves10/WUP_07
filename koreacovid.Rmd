@@ -41,6 +41,16 @@ state of a patient must be died or alive - we adjust that as well
 
 
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
+
+```
+
+The majority of the population was female, making up about 55%, while males accounted for roughly 45%. However, among those who died, nearly 65% were male and about 35% were female. This highlights a significant disparity in mortality rates, with males nearly doubling the number of deceased females.
+
+
+
 
   
 ## Numerical results
