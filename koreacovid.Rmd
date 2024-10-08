@@ -72,4 +72,4 @@ The null hypothesis suggests that the percentage of deceased males and females s
 
 
 ## Conclusions
-
+The data and graphs indicate a correlation between sex and mortality. Despite women making up the majority of the population, males are twice as likely to die as females.
