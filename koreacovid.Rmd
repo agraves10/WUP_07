@@ -55,7 +55,13 @@ The majority of the population was female, making up about 55%, while males acco
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+The data reveals that the majority of the living population was female, with a ratio of 56:44. In contrast, the deceased population was predominantly male, with a ratio of 36:64. Approximately 63% of the male population had died, while only 1.4% of the female population had passed away. This indicates that the number of deceased males was more than double that of deceased females.
 ## Inferential results 
 
 
