@@ -63,8 +63,12 @@ colPerc(table1)
 
 The data reveals that the majority of the living population was female, with a ratio of 56:44. In contrast, the deceased population was predominantly male, with a ratio of 36:64. Approximately 63% of the male population had died, while only 1.4% of the female population had passed away. This indicates that the number of deceased males was more than double that of deceased females.
 ## Inferential results 
-
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+The null hypothesis suggests that the percentage of deceased males and females should be equal when compared to the living population. However, the observed data indicated that the number of deceased males was nearly double that of deceased females. The odds of females dying are 2:3, indicating that men are more likely to die than women.
 
 
 ## Conclusions
